@@ -33,11 +33,13 @@ def parse_args():
     return parser.parse_args()
 
 
-def main():
-    args = parse_args()
-    app = create_app(args.filename)
-    app.run(port=args.port, debug=args.debug)
+#def main():
+#    args = parse_args()
+#    app = create_app(args.filename)
+#    app.run(port=args.port, debug=args.debug)
 
 
 if __name__ == '__main__':
-    main()
+    args = parse_args()
+    app = create_app(args.filename)
+    app.run(port=args.port, debug=args.debug)

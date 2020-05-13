@@ -57,13 +57,13 @@ class RatingLevelMap(object):
         """Return the rating text for the given score."""
         if not self.ratings:
             return
-        print(score, " pelkkä score")
+
         index = bisect_right(self.thresholds, score)
         return self.ratings[index]
 
 
 def prepare_thresholds_and_ratings(rating_levels):
-    print(rating_levels, " Täs rating_levels === prepare_thresholds_and_ratings")
+
     minimum_scores_to_texts = map_minimum_scores_to_texts(rating_levels)
     minimum_scores = sorted(minimum_scores_to_texts.keys())
 
