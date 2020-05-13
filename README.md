@@ -1,9 +1,10 @@
 
 
 # cd to the directory where requirements.txt is located.
-# activate your virtualenv: source venv/bin/activate
+# run: python3 -m venv venv
+# run: source venv/bin/activate
 # run: pip install -r requirements.txt in your shell.
-# python run.py --debug --port 8080 data/example.json
+# run: python run.py --debug --port 8080 data/example.json
 
 
 # if the port stays on:

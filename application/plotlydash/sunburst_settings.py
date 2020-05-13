@@ -94,8 +94,8 @@ def sundata():
             lines = f.readlines()
 
         numbers =[float(e.strip()) for e in lines]
-
-        if ((sum(numbers)/len(numbers) > 0.5)):
+        print("")
+        if (((sum(numbers)/len(numbers)) > 0.5)):
             starter_colors = ['','palegreen','lightblue','lightblue','lightblue']
         else:
             starter_colors = ['','crimson','lightblue','lightblue','lightblue'] 
