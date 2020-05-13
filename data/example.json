@@ -1,0 +1,198 @@
+{
+    "title": "Evaluate your professional experience and knowledge in sustainable construction industry",
+    "questions": [
+        {
+            "text": "Do you have some experience or knowledge on economy?",
+            "answers": [
+                { "text": "yes",   "weighting": 1.0 },
+                { "text": "no",   "weighting": 0.0 },
+                { "text": "prefer not to answer",  "weighting": 0.0 }
+            ]
+        },
+        {
+            "text": "Do you have some experience or knowledge on finance?",
+            "answers": [
+                { "text": "yes",   "weighting": 1.0 },
+                { "text": "no",   "weighting": 0.0 },
+                { "text": "prefer not to answer",  "weighting": 0.0 }
+            ]
+        },
+        {
+            "text": "Do you have some experience or knowledge on employment?",
+            "answers": [
+                { "text": "yes",   "weighting": 1.0 },
+                { "text": "no",   "weighting": 0.0 },
+                { "text": "prefer not to answer",  "weighting": 0.0 }
+            ]
+        },
+        {
+            "text": "Do you have some experience or knowledge on growth reputation?",
+            "answers": [
+                { "text": "yes",   "weighting": 1.0 },
+                { "text": "no",   "weighting": 0.0 },
+                { "text": "prefer not to answer",  "weighting": 0.0 }
+            ]
+        }
+    ],
+    "sub_title":"Evaluate your knowledge or experience on finance, employment and reputation sectors (0=no knowledge or experience, 5=professional)",
+    "questions_part_2": [
+        {
+            "text": "Finance: Lifecycle value",
+            "answers": [
+                { "text": "0",      "weighting": 0.0 },
+                { "text": "1",      "weighting": 0.25 },
+                { "text": "2",      "weighting": 0.50 },
+                { "text": "3",      "weighting": 0.75 },
+                { "text": "4",      "weighting": 1.0  }
+            ]
+        },
+        {
+            "text": "Finance: Local economy",
+            "answers": [
+                { "text": "0",      "weighting": 0.0 },
+                { "text": "1",      "weighting": 0.25 },
+                { "text": "2",      "weighting": 0.50 },
+                { "text": "3",      "weighting": 0.75 },
+                { "text": "4",      "weighting": 1.0  }
+            ]
+        },
+        {
+            "text": "Finance: Economic development",
+            "answers": [
+                { "text": "0",      "weighting": 0.0 },
+                { "text": "1",      "weighting": 0.25 },
+                { "text": "2",      "weighting": 0.50 },
+                { "text": "3",      "weighting": 0.75 },
+                { "text": "4",      "weighting": 1.0  }
+            ]
+        },
+        {
+            "text": "Finance: Competitiveness",
+            "answers": [
+                { "text": "0",      "weighting": 0.0 },
+                { "text": "1",      "weighting": 0.25 },
+                { "text": "2",      "weighting": 0.50 },
+                { "text": "3",      "weighting": 0.75 },
+                { "text": "5",      "weighting": 1.0  }
+            ]
+        },
+        {
+            "text": "Finance: Market impact",
+            "answers": [
+                { "text": "0",      "weighting": 0.0 },
+                { "text": "1",      "weighting": 0.25 },
+                { "text": "2",      "weighting": 0.50 },
+                { "text": "3",      "weighting": 0.75 },
+                { "text": "4",      "weighting": 1.0  }
+            ]
+        },
+        {
+            "text": "Employment: Trade",
+            "answers": [
+                { "text": "0",      "weighting": 0.0 },
+                { "text": "1",      "weighting": 0.25 },
+                { "text": "2",      "weighting": 0.50 },
+                { "text": "3",      "weighting": 0.75 },
+                { "text": "4",      "weighting": 1.0  }
+            ]
+        },
+        {
+            "text": "Employment: Employees",
+            "answers": [
+                { "text": "0",      "weighting": 0.0 },
+                { "text": "1",      "weighting": 0.25 },
+                { "text": "2",      "weighting": 0.50 },
+                { "text": "3",      "weighting": 0.75 },
+                { "text": "4",      "weighting": 1.0  }
+            ]
+        },
+        {
+            "text": "Employment: Employment",
+            "answers": [
+                { "text": "0",      "weighting": 0.0 },
+                { "text": "1",      "weighting": 0.25 },
+                { "text": "2",      "weighting": 0.50 },
+                { "text": "3",      "weighting": 0.75 },
+                { "text": "4",      "weighting": 1.0  }
+            ]
+        },
+        {
+            "text": "Employment: Labour market",
+            "answers": [
+                { "text": "0",      "weighting": 0.0 },
+                { "text": "1",      "weighting": 0.25 },
+                { "text": "2",      "weighting": 0.50 },
+                { "text": "3",      "weighting": 0.75 },
+                { "text": "4",      "weighting": 1.0  }
+            ]
+        },
+        {
+            "text": "Employment: Business management",
+            "answers": [
+                { "text": "0",      "weighting": 0.0 },
+                { "text": "1",      "weighting": 0.25 },
+                { "text": "2",      "weighting": 0.50 },
+                { "text": "3",      "weighting": 0.75 },
+                { "text": "4",      "weighting": 1.0  }
+            ]
+        },
+        {
+            "text": "Employment: Business impacts",
+            "answers": [
+                { "text": "0",      "weighting": 0.0 },
+                { "text": "1",      "weighting": 0.25 },
+                { "text": "2",      "weighting": 0.50 },
+                { "text": "3",      "weighting": 0.75 },
+                { "text": "4",      "weighting": 1.0  }
+            ]
+        },
+        {
+            "text": "Employment: Sector impacts",
+            "answers": [
+                { "text": "0",      "weighting": 0.0 },
+                { "text": "1",      "weighting": 0.25 },
+                { "text": "2",      "weighting": 0.50 },
+                { "text": "3",      "weighting": 0.75 },
+                { "text": "4",      "weighting": 1.0  }
+            ]
+        },
+        {
+            "text": "Reputation: Image",
+            "answers": [
+                { "text": "0",      "weighting": 0.0 },
+                { "text": "1",      "weighting": 0.25 },
+                { "text": "2",      "weighting": 0.50 },
+                { "text": "3",      "weighting": 0.75 },
+                { "text": "4",      "weighting": 1.0  }
+            ]
+        },
+        {
+            "text": "Reputation: Local identity",
+            "answers": [
+                { "text": "0",      "weighting": 0.0 },
+                { "text": "1",      "weighting": 0.25 },
+                { "text": "2",      "weighting": 0.50 },
+                { "text": "3",      "weighting": 0.75 },
+                { "text": "4",      "weighting": 1.0  }
+            ]
+        },
+        {
+            "text": "Reputation: Tourism",
+            "answers": [
+                { "text": "0",      "weighting": 0.0 },
+                { "text": "1",      "weighting": 0.25 },
+                { "text": "2",      "weighting": 0.50 },
+                { "text": "3",      "weighting": 0.75 },
+                { "text": "4",      "weighting": 1.0  }
+            ]
+        }
+
+    ],
+    "rating_levels": [
+        { "minimum_score":   0, "text": "You lack knowledge on economy" },
+        { "minimum_score":  10, "text": "You have some knowlegde on economy" },
+        { "minimum_score":  50, "text": "You have competitive knowledge on economy" },
+        { "minimum_score":  75, "text": "You already know the secrets of economy" },
+        { "minimum_score":  90, "text": "You are an economic wisard!" }
+    ]
+}

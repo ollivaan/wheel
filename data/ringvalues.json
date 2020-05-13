@@ -1,0 +1,29 @@
+{
+    "first_inner_ring": [
+        "Finance", 
+        "Employment", 
+        "Reputation", 
+        "Communication", 
+        "Knowledge", 
+        "Planning", 
+        "Delivery", 
+        "Product", 
+        "Mobility", 
+        "Wellbeing", 
+        "Engagement", 
+        "Community", 
+        "Ethics", 
+        "Food", 
+        "Land", 
+        "Materials", 
+        "Ecology", 
+        "Water", 
+        "Air", 
+        "Climate", 
+        "Energy", 
+        "Environmental impact"
+    ],
+    "second_inner_ring": ["Lifecycle value", "Local economy", "Economic development", "Competitiveness", "Market impacts", "Trade", "Employees", "Hiring", "Labour market", "Business management", "Business impacts", "Sector impacts", "Image", "Local identity", "Tourism", "Communications strategy", "Public communications", "ICT", "Managing innovation", "Research & technology", "Exemplars", "Knowledge management", "Education", "Public awareness", "Effective management", "Local strategies", "National strategies", "Project assessment", "Impact assessment", "Cumulative impacts", "Risk management", "Crisis management", "Emergency preparedness", "Supply chain management", "Local sourcing", "Ethical procurement", "Production management", "Local production", "Industry", "Quality management", "Aesthetics", "Sustainability", "Change management", "Renewal", "Resilience", "Access for all", "Accessible services", " ", "Travel management", "Sustainable travel", "Transport infrastructure", "H&S management", "Public health", "Healthcare and welfare", "Site safety", "Public safety", "  ", "Security management", "Crime", "National security", "Customer satisfaction", "Local satisfaction", "Human rights", "Collaboration", "Community relations", "Public interest", "Stakeholder engagement", "Community involvement", "Active citizenship", "Culture & values", "Regional heritage", "National heritage", "Diversity", "Social inclusion", "Reducing disparities", "Quality of life", "Sustainable communities", "Regional development", "Corporate responsibility", "Charity", "International cooperation", "Compliance", "Local planning", "Legislation", "Food supply", "Agriculture & fisheries", "Global food availability", "Geoenvironment", "Regional geology", "Protected geology", "Land amenity", "Landscape impacts", "Ecological footprint", "Waste management", "Waste treatment", "Landfill waste", "Resource use", "Sustainable materials", "Resource scarcity", "Traceability", "Chemical management", "Environmental toxicity", "Habitats", "Natural heritage", "Ecosystems", "Species on site", "Local biodiversity", "Global biosphere", "Stormwater management", "Flood risk", "Sea level rise", "Water quality management", "Water protection", "Marine water quality", "Water resources management", "Local water resources", "Water infrastructure", "Air quality management", "Air pollution", "Global air quality", "Acoustics", "Noise & vibration", "   ", "Microclimate", "Local climate", "Global climate", "GHG management", "Local GHG emissions", "Global GHG emissions", "Energy management", "Transmission efficiency", "Energy security", "Sustainable energy", "Local energy networks", "Energy infrastructure", "Internal environment", "Local environmental quality", "Regional environmental quality", "Environmental management", "Local environmental impacts", "Regional environmental impacts"],
+    "outer_ring": ["Economic impacts", "Competition", "Jobs", "Business", "Reputation ", "Communication ", "Innovation", "Skills", "Management", "Assessment", "Risk", "Supply Chain", "Production", "Quality", "Adaptability", "Accessibility", "Travel", "Health", "Safety", "Security", "Happiness", "Stakeholder relations", "Participation", "Culture", "Equity", "Community Development", "Stewardship", "Regulations", "Food ", "Geology", "Land use", "Waste", "Products & Materials", "Chemicals", "Habitats ", "Animals", "Flooding", "Water quality", "Water resources", "Air Quality", "Noise", "Climate impacts", "GHG emissions", "Energy efficiency", "Energy production", "Environmental quality", "Environmental Management"]
+}
+

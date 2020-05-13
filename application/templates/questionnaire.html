@@ -1,0 +1,63 @@
+{% extends "layout.html" %}
+{% set page_title = 'Questionnaire' %}
+{% block body %}
+
+      <form action="{{ url_for('.evaluate', _method='POST') }}" method="post">
+
+        {% set submitted = user_input is defined %}
+        {% if submitted -%}
+        <section class="notifications">
+          <fieldset>
+            <p>You have answered only <strong>{{ user_input.total_questions_answered }} of {{ user_input.questions_total }}</strong> questions so far.</p>
+            <p>Please answer the remaining <strong>{{ user_input.total_questions_unanswered }}</strong> question(s) for final evaluation.</p>
+          </fieldset>
+        </section>
+        {% endif -%}
+
+        <section class="name">
+          <fieldset>
+            <h2>What's your name? <small>(optional)</small></h2>
+            <p><input type="text" name="username"{% if username %} value="{{ username }}"{% endif %} maxlength="40"/></p>
+          </fieldset>
+        </section>
+
+        {% for question in questionnaire.get_questions()[0:4] %}
+        <section class="question">
+          <fieldset>
+            <h2>{{ loop.index }}. {{ question.text }}</h2>
+            {%- if submitted and not user_input.is_question_answered(question) %}
+            <p class="notification">Please answer this question.</p>
+            {%- endif %}
+            <ul>
+            {%- for answer in questionnaire.get_answers_for_question(question)|shuffled %}
+              <li><label><input type="radio" name="{{ question.hash }}" value="{{ answer.hash }}"{% if submitted and user_input.is_answer_selected(question, answer) %} checked="checked"{% endif %}/>{{ answer.text }}</label></li>
+            {%- endfor %}
+            </ul>
+          </fieldset>
+        </section>
+        {% endfor %}
+
+        <h2>Evaluate your knowledge or experience on finance, employment and reputation sectors (0=no knowledge or experience, 5=professional)</h2>
+        {% for question in questionnaire.get_questions()[4::] %}
+        <section class="question">
+          <fieldset>
+            <h2>{{ loop.index }}. {{ question.text }}</h2>
+            {%- if submitted and not user_input.is_question_answered(question) %}
+            <p class="notification">Please answer this question.</p>
+            {%- endif %}
+            <ul>
+            {%- for answer in questionnaire.get_answers_for_question(question)|shuffled %}
+              <li><label><input type="radio" name="{{ question.hash }}" value="{{ answer.hash }}"{% if submitted and user_input.is_answer_selected(question, answer) %} checked="checked"{% endif %}/>{{ answer.text }}</label></li>
+            {%- endfor %}
+            </ul>
+          </fieldset>
+        </section>
+        {% endfor %}
+
+        <div class="button-wrapper">
+          <button>Evaluate</button>
+        </div>
+
+      </form>
+
+{%- endblock body %}

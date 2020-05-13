@@ -1,0 +1,9 @@
+flask
+plotly
+pandas
+Dash
+dash
+Flask-Assets
+cssmin
+lessc
+gunicorn

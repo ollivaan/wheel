@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% set page_title = 'Results' %}
+{% block body %}
+
+      <section class="result">
+        <h2>Thank you for completing the survey. Click the sustainability wheel
+          button to see your score in context. Your score on economy sector, <em>{{ username or 'stranger' }}</em></h2>
+        <p class="score">{{ '%.1f'|format(result.score) }}&thinsp;%</p>
+        {%- if result.text %}
+        <p class="text">{{ result.text }}</p>
+        {%- endif %}
+      </section>
+
+      <div class="button-wrapper">
+        <a class="button" href="{{ url_for('.view') }}">Answer questions again</a>
+        <a class="button" href="/sustainability_wheel/" href="{{ url_for('.dash') }}">
+          <span>Sustainability wheel</span>
+        </a>
+      
+      </div>
+
+{%- endblock body %}
