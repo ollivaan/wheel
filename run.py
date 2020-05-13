@@ -35,7 +35,6 @@ def parse_args():
 
 def main():
     args = parse_args()
-
     app = create_app(args.filename)
     app.run(port=args.port, debug=args.debug)
 
